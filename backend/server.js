@@ -3,11 +3,13 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 const testRoutes = require("./routes/testRoutes");
+const recommendationRoutes = require("./routes/recommendationRoutes");
 
 dotenv.config();
 connectDB();
 
 const app = express();
+app.use("/api/recommendations", recommendationRoutes);
 
 app.use(cors());
 app.use(express.json());   // VERY IMPORTANT
