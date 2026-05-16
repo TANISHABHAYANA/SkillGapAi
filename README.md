@@ -5,3 +5,4 @@
 SKILLGAP AI: A SMART SKILLING ASSESSMENT AND INDIVIDUALIZED COURSE RECOMMENDATION SYSTEM
 Type-Research
 Current Status - Paper submitted in the conference
+The above mentioned frontend and backend that you can see is the future scope and will be implemented later on.
